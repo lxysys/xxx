@@ -1,0 +1,156 @@
+.box{
+    width: 325px;
+    height: 400px;
+    background: #000000;
+    opacity: 0.5;
+    margin: 30px 30px;
+    border: 1px solid #535A5A;
+    margin: 100px auto;
+    .box-s{
+        width: 284px;
+        margin: 0 auto;
+        color: #FFFFFF;
+        .box-t{
+            h1{
+                font-size: 24px;
+                margin-top: 30px;
+            }
+            .sum-1{
+                margin-top: 22px;
+                float: left;
+            }
+            .sum-2{
+                margin-top: 22px;
+                float: right;
+                margin-bottom: 6px;
+            }
+            .money{
+                position: relative;
+                input{
+                    float: left;
+                    background: #FFFFFF;
+                    width: 188px;
+                    height: 44px;
+                    padding-left: 10px;
+                }
+                .date{
+                    float: left;
+                    height: 44px;
+                    width: 42px;
+                    background: #FFFFFF;
+                    color: #808080;
+                    text-align: center;
+                    line-height: 44px;
+                }
+                .dai{
+                    float: left;
+                    height: 44px;
+                    padding-left: 42px;
+                    background: #FFFFFF url(../img/j_bottom.png) no-repeat 50% 50%;
+                }
+                .sh{
+                    display: block;
+                }
+                .kuan{
+                    display: none;
+                    z-index: 2;
+                    position: absolute;
+                    left: 0px;
+                    top: 88px;
+                    width: 282px;
+                    height: 152px;
+                    background: #FFFFFF;
+                    p{
+                        padding-left: 10px;
+                        color: #525252;
+                        line-height: 25px;
+                        &:hover{
+                            background:#C6D6E7 ;
+                        }
+                    }
+                }
+            }
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+        }
+        .box-b{
+            h1{
+                font-size: 24px;
+                margin-top: 30px;
+            }
+            .sum-1{
+                margin-top: 22px;
+                margin: 10px 0;
+                display: block;
+            }
+            .deadline{
+                position: relative;
+                input{
+                    float: left;
+                    background: #FFFFFF;
+                    width: 188px;
+                    height: 44px;
+                    padding-left: 10px;
+                }
+                .date2{
+                    float: left;
+                    height: 44px;
+                    width: 42px;
+                    background: #FFFFFF;
+                    color: #808080;
+                    text-align: center;
+                    line-height: 44px;
+                }
+                .dai2{
+                    float: left;
+                    height: 44px;
+                    padding-left: 42px;
+                    background: #FFFFFF url(../img/bottom.png) no-repeat 50% 50%;
+                }
+                .kuan2{
+                    display: none;
+                    z-index: 2;
+                    position: absolute;
+                    left: 0px;
+                    top: 44px;
+                    width: 282px;
+                    height: 152px;
+                    background: #FFFFFF;
+                    p{
+                        padding-left: 10px;
+                        color: #525252;
+                        line-height: 25px;
+                        &:hover{
+                            background:#C6D6E7 ;
+                        }
+                    }
+                }
+            }
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+        }
+        .search{
+            a{
+                margin-top: 16px;
+                display: block;
+                font-size: 16px;
+                width: 282px;
+                height: 40px;
+                background: #0094EF;
+                color: #FFFFFF;
+                text-align: center;
+                line-height: 40px;
+            }
+        }
+        .foot-p{
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+}
